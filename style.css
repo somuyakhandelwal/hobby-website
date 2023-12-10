@@ -1,0 +1,26 @@
+/* Universal Selector (*): */
+* {
+  background-color: lightblue;
+}
+
+/* Class Selector (.) */
+.heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ID Selector (#): */
+#subheading {
+  font-size: 40px;
+  color: grey;
+}
+
+/* Child Selector (>) */
+li > img {
+  width: 250px;
+}
+
+/* Type or Element Selector: */
+ul {
+  list-style-type: circle;
+}
